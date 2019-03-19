@@ -1,0 +1,17 @@
+{
+  "name": "Jequitibão",
+  "description": "Jequitibão bolado",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": [
+        "jquery.min.js",
+        "constants.js",
+        "core.js",
+        "index.js"
+      ],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
